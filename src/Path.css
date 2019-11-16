@@ -13,3 +13,28 @@
   stroke-width: 2.5px;
   vector-effect: non-scaling-stroke;
 }
+.govuk-line-data-point-overlay {
+  opacity: 0;
+}
+.govuk-line-data-point-overlay:hover {
+  opacity: 0.5;
+  outline:0;
+}
+.govuk-line-data-point-overlay:focus {
+  opacity: 1;
+  outline:0;
+}
+.govuk-line-data-point-overlay circle {
+  fill: #ffffff;
+  stroke: #097F96;
+  stroke-width: 2.5px;
+}
+.govuk-line-data-point-overlay line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+}
+.govuk-line-data-point-overlay rect {
+  opacity: 0;
+}
