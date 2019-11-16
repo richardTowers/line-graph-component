@@ -1,0 +1,15 @@
+.govuk-line-data-path {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+
+  width: calc(100% - 4rem);
+  height: calc(100% - 2rem);
+}
+.govuk-line-data-path path {
+  stroke: #097F96;
+  fill: none;
+  stroke-width: 2.5px;
+  vector-effect: non-scaling-stroke;
+}

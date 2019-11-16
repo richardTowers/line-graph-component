@@ -1,0 +1,39 @@
+.govuk-line-graph-axis.x {
+  position: absolute;
+  bottom: 0;
+  left: 4rem;
+  right: 0;
+  border-top: 1px solid grey;
+
+  width: calc(100% - 4rem);
+  height: 2rem;
+}
+.govuk-line-graph-axis.y {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-right: 1px solid grey;
+
+  width: 4rem;
+  height: calc(100% - 2rem);
+}
+.govuk-line-graph-axis.x .govuk-line-graph-tick {
+  position: absolute;
+  width: 50px;
+  text-align: center;
+  top: 5px;
+}
+.govuk-line-graph-axis.y .govuk-line-graph-tick {
+  position: absolute;
+  line-height: 50px;
+  right: 5px;
+}
+@media (max-width: 640px) {
+  .govuk-line-graph-axis.x .govuk-line-graph-tick:nth-child(2n) {
+    display: none;
+  }
+  .govuk-line-graph-axis.y .govuk-line-graph-tick:nth-child(2n) {
+    display: none;
+  }
+}
